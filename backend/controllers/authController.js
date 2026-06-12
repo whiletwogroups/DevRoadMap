@@ -84,7 +84,7 @@ const loginUser = async (req, res) => {
         _id: 3,
         username: 'testuser',
         email: 'testuser@gmail.com',
-          token: generateToken(3)
+          token: "password123"
         // _id: user._id,
         // username: user.username,
         // email: user.email,
